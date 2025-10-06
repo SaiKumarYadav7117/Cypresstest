@@ -1,0 +1,12 @@
+Test Case ID,Test Case Name,Preconditions,Test Steps,Expected Result
+TC001,Verify navigation to signup page,User has access to ParaBank web application,"1. Launch the ParaBank application.
+2. Click on “Register”.",The signup page should be displayed with registration fields
+TC002,Verify account creation with valid details,Signup page is open,"1. Fill in all required details with valid data.
+2. Click on “Register”","A success message should appear confirming account creation, and the user should be logged in automatically.(Your account was created successfully)"
+TC003,Verify automatic login after signup,User has successfully created a new account,1. Observe the landing page after signup.,User should be redirected to the account dashboard/home page and see their account information (e.g. Your account was created successfully).
+TC004,Verify logout functionality,User is logged in,1. Click on the “Log Out” button.,User should be logged out and redirected to the login page.
+TC005,Verify login with same user credentials,User has a valid registered account,"1. Navigate to the login page.
+2. Enter the same username and password used during signup.
+3. Click “Log In”.",User should successfully log in and be redirected to the account overview/dashboard.
+TC006,Verify account balance display after login,User is logged in,"1. Observe the account overview option
+2. Check the “Account Balance” section.",Account balance should be displayed correctly
